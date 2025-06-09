@@ -30,8 +30,6 @@ class MyString:
         sentencePattern = re.compile(r'[A-Za-z]+[a-z ,]*[!.?]+')
         sentences = sentencePattern.findall(self._value)
         return len(sentences)
-      #  print(f"count of sentences in {self._value}: {len(sentences)}")
-
     
 
 
